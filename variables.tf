@@ -1,7 +1,7 @@
 variable "location" {
   type        = string
   description = "Location of the resource group and modules"
-  default     = "North Europe"
+  default     = "Canada Central"
 }
 
 variable "prefix" {
@@ -13,7 +13,7 @@ variable "prefix" {
 variable "postfix" {
   type        = string
   description = "Postfix for module names"
-  default     = "102"
+  default     = "103"
 }
 
 variable "sku" {
@@ -25,5 +25,5 @@ variable "sku" {
 variable "admin_email" {
   type        = string
   description = "Admin email address"
-  default     = "<>"
+  default     = "abdulah.alhoothy@northernacs.com"
 }

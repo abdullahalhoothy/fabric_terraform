@@ -7,6 +7,7 @@ terraform {
   }
 }
 
+# need to use azure CLI to authenticate user , using az login in powershell
 provider "azurerm" {
   features {}
 }
